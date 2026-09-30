@@ -3,44 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Cornell University's premier low latency technology club.">
-  <title>Cornell High Frequency Trading Club</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-family='serif' font-weight='bold' font-size='25' fill='white'%3EH%3C/text%3E%3C/svg%3E">
+  <meta name="description" content="Leaderboard and known ascensionists for the Great Lindseth Traverse (GLT).">
+  <title>Great Lindseth Traverse (GLT)</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-family='serif' font-weight='bold' font-size='25' fill='white'%3EG%3C/text%3E%3C/svg%3E">
   <style>
     body { background: white; color: #111; font-family: "Times New Roman", Times, serif; font-size: 18px; line-height: 1.45; }
-    .password-prompt { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; font-size: 16px; }
-    .password-prompt input { width: 160px; max-width: 100%; box-sizing: border-box; padding: 4px 6px; font: inherit; border: 1px solid #777; border-radius: 0; background: white; color: #111; }
-    .password-prompt input:focus-visible { outline: 2px solid #111; outline-offset: 2px; }
     main { width: 75%; max-width: 960px; margin: 40px auto; }
-    header { text-align: center; }
     h1 { color: #111; font-size: 2.4em; margin-bottom: 0; }
-    header p { margin-top: 6px; }
     a, a:visited { color: #111; }
     a:hover { text-decoration-thickness: 2px; }
     a:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
     h2 { font-size: 1.25em; }
-    pre { overflow-x: auto; font-size: 0.85em; line-height: 1.5; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { text-align: left; padding: 4px 12px 4px 0; border-bottom: 1px solid #ccc; }
+    th { border-bottom: 1px solid #777; }
+    td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
     hr { border: 0; border-top: 1px solid #777; }
     footer { margin-top: 32px; font-size: 16px; }
     @media (max-width: 600px) { main { width: auto; margin: 24px 16px; } h1 { font-size: 2em; } }
   </style>
 </head>
 <body>
-  <div class="password-prompt">
-    <label for="password">Password:</label>
-    <input id="password" type="password" placeholder="Enter password" autocomplete="off">
-  </div>
   <main>
-    <p>Cornell High Frequency Trading Club</p>
-    <nav aria-label="Main navigation"><p><a href="index.html">Home</a> &middot; <a href="prior-work.html">Prior work</a> &middot; <a href="contact.html">Contact</a></p></nav>
-    <h1>Cornell High Frequency Trading Club</h1>
-    <p>Cornell University's premier low latency hardware club.</p>
-    <p>Paper reading club meets every Wednesday at 8 PM at College Town Bagels. Next read: <a href="https://www.doc.ic.ac.uk/~wl/papers/09/hoti09dt.pdf"><strong>Morris&ndash;Thomas&ndash;Luk (2009)</strong></a>.</p>
-    <p>Currently working on Jane Street's protocol emulator ASIC competition.</p>
+    <h1>Great Lindseth Traverse (GLT)</h1>
+    <p>Last updated: <time datetime="2026-09-30">September 30, 2026</time></p>
+
+    <h2>Leaderboard</h2>
+    <table>
+      <thead>
+        <tr><th class="num">#</th><th>Climber</th><th class="num">Time</th><th>Date</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="num">1</td><td>Spencer Hadlock &amp; Charlie Miller</td><td class="num">1:49:37</td><td></td></tr>
+      </tbody>
+    </table>
+
+    <h2>Known ascensionists</h2>
+    <ul>
+    </ul>
+
     <footer>
       <hr>
-      <p>Fast website, fast hardware</p>
-      <p>Cornell HFTC &middot; Ithaca, New York</p>
+      <p>Great Lindseth Traverse &middot; Ithaca, New York</p>
     </footer>
   </main>
 </body>

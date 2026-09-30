@@ -1,8 +1,6 @@
-# Cornell High Frequency Trading Club website
+# Great Lindseth Traverse (GLT) website
 
 The current website is plain HTML in `dist/`. No dependencies or build step are required.
-
-Live site: https://cornell-high-frequency-trading-club.github.io/website/
 
 ## Edit and preview
 
@@ -18,6 +16,3 @@ The older root-level website files are retained for reference and are not deploy
 
 A domain is optional. When one is available, configure it under Settings → Pages → Custom domain, add the DNS records GitHub requests, and enable HTTPS once the certificate is ready.
 
-## Current functionality
-
-The password field is decorative and does not restrict access. The interest form is a coming-soon page.
