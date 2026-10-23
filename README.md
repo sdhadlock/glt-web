@@ -10,8 +10,6 @@ Edit files in `dist/`. Run `python3 -m http.server 8000 --directory dist` and op
 
 GitHub Pages uses GitHub Actions. Every push to `main` publishes only `dist/` using `.github/workflows/deploy.yml`. The workflow can also be run manually from the Actions tab.
 
-The older root-level website files are retained for reference and are not deployed.
-
 ## Custom domain
 
 A domain is optional. When one is available, configure it under Settings → Pages → Custom domain, add the DNS records GitHub requests, and enable HTTPS once the certificate is ready.
